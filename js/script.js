@@ -1,5 +1,5 @@
 // Obtener una referencia al elemento canvas del DOM
-const $grafica = document.querySelector("#grafica");
+const $inversiones = document.querySelector("#inversiones");
 // Las etiquetas son las que van en el eje X. 
 const etiquetas = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"]
 // Podemos tener varios conjuntos de datos
@@ -99,7 +99,7 @@ const Inversion12 = {
 };
 
 
-new Chart($grafica, {
+new Chart($inversiones, {
   type: 'line',// Tipo de gráfica
   data: {
     labels: etiquetas,
