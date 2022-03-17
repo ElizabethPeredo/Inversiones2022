@@ -121,6 +121,7 @@ new Chart($inversiones, {
     ]
   },
   options: {
+    maintainAspectRatio: false,
     scales: {
       yAxes: [{
         ticks: {

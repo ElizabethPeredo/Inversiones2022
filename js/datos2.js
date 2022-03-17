@@ -55,6 +55,7 @@ new Chart($inversiones, {
     type: 'bar',
     data,
     options: {
+      maintainAspectRatio: false,
       scales: {
         y: {
           beginAtZero: true

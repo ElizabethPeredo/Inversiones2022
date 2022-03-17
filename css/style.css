@@ -1,8 +1,39 @@
-.chart-container{
-    height:40vh; 
-    width:80vw;
+.chart-container {
+  height: 40vh;
+  width: 80vw;
 }
 
-.chart-container canvas{
-    height:150%;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.chartMenu {
+  width: 100vw;
+  height: 40px;
+  background: #1a1a1a;
+  color: #006eff;
+}
+.chartMenu p {
+  padding: 10px;
+  font-size: 20px;
+}
+.chartCard {
+  width: 100vw;
+  height: calc(100vh - 140px);
+  display: flex;
+  justify-content: center;
+}
+.chartBox {
+  width: 700px;
+  padding: 20px;
+  border-radius: 20px;
+  border: solid 3px #006eff;
+  background: rgb(255, 255, 255);
+}
+
+@media only screen and (max-width: 600px) {
+  .chartBox {
+    width: 90%;
+  }
 }
