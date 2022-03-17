@@ -1,12 +1,10 @@
-.chart-container {
-  height: 40vh;
-  width: 80vw;
-}
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap');
+
 
 * {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Fredoka', sans-serif;
 }
 .chartMenu {
   width: 100vw;
