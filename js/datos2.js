@@ -16,8 +16,8 @@ const data = {
     '2459198	Centro Histórico de Huamanga (Ayacucho)',
 ],
     datasets: [{
-      label: 'Avance (01ENE22 - 16MAR22)',
-      data: [100.0, 6.3, 56.8, 5.2, 8.8, 0.0,0.0, 70.0, 0.0, 0.0, 0.0,0.0],
+      label: 'Avance (01ENE22 - 31MAR22)',
+      data: [100.0, 7.2, 92.4, 8.1, 9.4, 0.0,0.0, 100.0, 0.0, 0.0, 0.0,0.0],
       backgroundColor: [
         'rgba(255, 26, 104, 0.2)',
         'rgba(54, 162, 235, 0.2)',
